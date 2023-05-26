@@ -33,7 +33,7 @@ $(document).ready(function () {
   });
   
   fetch(
-    "https://raw.githubusercontent.com/howisrian/carousel-slider-simples/main/assets/data.json"
+    "https://raw.githubusercontent.com/howisrian/Projeto-Web/main/assets/data.json"
   )
     .then((response) => response.json())
     .then((data) => {
