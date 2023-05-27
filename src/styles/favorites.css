@@ -1,0 +1,27 @@
+.favorites {
+	margin: 2rem 15%;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 1.7rem;
+}
+
+.favorites p{
+	margin: .7rem 0;
+}
+
+.favorites h6{
+	font-weight: 400;
+	font-size: .9rem;
+	margin-bottom: 1.5rem;
+}
+
+.favorites a{
+	background: var(--blue);
+	color: var(--white);
+
+	padding: 1rem 2rem;
+
+	border-radius: 15px;
+}

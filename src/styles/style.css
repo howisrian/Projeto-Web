@@ -1,0 +1,162 @@
+/********************************** forms *******************************************/
+/********************************** Rafael  Áquila *******************************************/
+
+main section {
+	margin-top: 3.8rem;
+}
+
+main section p {
+	margin: 1.5rem 0rem;
+	font-weight: 400;
+}
+
+.forms {
+	background-image: linear-gradient(to bottom, var(--white), var(--blue-light));
+}
+
+main .forms h1 {
+	line-height: 1.25;
+	font-size: 1.6rem;
+	font-weight: 700;
+
+	color: var(--grey-dark);
+}
+
+main .forms li span {
+	font-size: .7rem
+}
+
+main .forms form input {
+	height: 3.3rem;
+	width: 80%;
+	outline: none;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+main .forms form input:hover {
+	background: var(--background-effect);
+}
+
+main .forms form button {
+	padding: 1rem 2rem;
+	background: var(--blue);
+	color: var(--white);
+	border: 1px solid #000;
+	font-size: 1rem;
+	font-weight: 700;
+	border-radius: 10px;
+}
+
+main .forms ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+main .forms li {
+	margin: 4rem 0rem 1rem 0rem;
+}
+
+main .forms li img {
+	height: 1.2rem;
+	max-width: 5rem;
+}
+
+/************************* About **************************/
+
+main .about {
+	background: var(--blue-light);
+	padding: 1rem;
+	width: 100%;
+}
+
+main .about h2 {
+	font-weight: 700;
+	font-size: 1.4rem;
+	padding: 0 14%;
+}
+
+main .about .faq {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+main .about .faq::before {
+	content: '';
+}
+
+main .about .faq .box {
+	width: 30rem;
+
+	border-radius: 10px;
+
+	margin: 1rem;
+	padding: 1rem;
+
+	background: var(--white);
+}
+
+main .about .faq .box p {
+	line-height: 1.3rem;
+	font-size: .8rem;
+}
+
+/************************** Hoteis **************************/
+/************************** Rafael Áquila ****************************/
+
+main .hoteis .content {
+	display: flex;
+	flex-wrap: wrap;
+
+	margin-top: 2rem;
+}
+
+main .hoteis .content::before {
+	content: '';
+}
+
+main .hoteis .content .card {
+	display: grid;
+	align-content: space-between;
+	width: 300px;
+
+	margin: 1.3rem;
+
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 5px #999;
+}
+
+main .hoteis .content .card h1 {
+	font-size: 1.4rem;
+	font-weight: 500;
+	padding: .5rem 1rem;
+}
+
+main .hoteis .content .card img {
+	width: 300px;
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+main .hoteis .content .card p {
+	margin: .5rem 0rem;
+	padding: 0rem 1rem;
+	text-align: justify;
+}
+
+main .hoteis .content .card a {
+	color: var(--white);
+	background: var(--blue);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 2rem;
+	padding: 1rem;
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
