@@ -1,0 +1,53 @@
+/************************** Rafael Áquila / Inácio ****************************/
+
+.product {
+	display: flex;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.product img {
+	width: 500px;
+	margin-right: 2rem;
+	border-radius: 20px;
+	border: 1px solid var(--border);
+}
+
+.product h3 {
+	margin: 1rem 0;
+}
+
+.product .info {
+	width: 40%;
+}
+
+.product .info p {
+	margin-bottom: 1rem;
+}
+
+.product .info .pmargin{
+	margin-bottom: 3rem;
+}
+
+.product .info a {
+	background: var(--blue);
+	color: var(--white);
+
+	padding: .7rem 3.5rem;
+	border-radius: 50px;
+	margin-right: 1rem;
+}
+
+.product .info .favorites {
+	background: var(--red);
+	color: var(--white);
+	border-radius: 50px;
+	margin-top: 2rem;
+	padding: .7rem 3.5rem;
+	border: none;
+}
+
+
+.product .info a:hover, button:hover {
+	opacity: .8;
+}
