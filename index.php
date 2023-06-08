@@ -1,8 +1,3 @@
-<!------------------------ Rafael Áquila ------------------------------------->
-<?php
-	require './src/script/array.php'
-?>
-
 
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
@@ -13,27 +8,7 @@
 		<link rel="shortcut icon" href="assets/head.png" type="image/x-icon" sizes="32x32" />
 		<link rel="stylesheet" href="src/styles/style.css" />
 		<link rel="stylesheet" href="src/styles/global.css">
-		<title>Rafigo</title>
-<!------------------------ Rafael Áquila ------------------------------------->
-		<style>
-			.loading-screen {
-				position: fixed;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				background-color: var(--blue-light);
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				z-index: 9999;
-			}
-			
-			.loading-text {
-				font-size: 24px;
-				font-weight: bold;
-			}
-  </style>
+
 	</head>
 	<body>
 		<header>
@@ -76,17 +51,7 @@
 					<li><span>+ de 100</span></li>
 				</ul>
 			</section>
-			<div class="slider js-slider"></div>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"
-				integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ=="
-				crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"
-				integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ=="
-				crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-				integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-				crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-				<script type="text/javascript" src="./assets/script/script.js"></script>
+
 			<!-------------------------------- Hoteis ------------------------------>
 			<!------------------------ Rafael Áquila ------------------------------------->
 			<section class="hoteis">
